@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gráficos de Qualidade</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <h1>Gráficos de Qualidade - Fornecedor</h1>
+    
+    <h2>Gráficos dos Meses</h2>
+    <img src="{{ url_for('static', filename='Mes 1_fornecedor_a.png') }}" alt="Gráfico Mês 1">
+    <img src="{{ url_for('static', filename='Mes 2_fornecedor_a.png') }}" alt="Gráfico Mês 2">
+    <img src="{{ url_for('static', filename='Mes 3_fornecedor_a.png') }}" alt="Gráfico Mês 3">
+    
+    <h2>Média de Qualidade</h2>
+    <img src="{{ url_for('static', filename='media_fornecedor_a.png') }}" alt="Gráfico da Média">
+</body>
+</html>
